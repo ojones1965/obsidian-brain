@@ -2,8 +2,7 @@
 created: 2026-09-25
 updated: 2026-09-25
 source: claude-code-jarvis
-status: draft
-tags: [ai-draft]
+status: reviewed
 ---
 
 # OpenAI Models (Corrected)
