@@ -15,14 +15,15 @@ This repository is an Obsidian knowledge vault. Markdown files in this vault are
 ## Vault layout
 
 ```text
-00 Inbox/AI Drafts/   default AI write location
-10 Daily/             daily notes
-20 Projects/          active projects
-30 Areas/             ongoing areas of responsibility
-40 Reference/         reference material
-50 People/            people
-60 Decisions/         decision records
-90 Archive/           inactive material
+_config/              vault rules, guidelines, agent instructions
+_archive/             inactive material, closed projects, old decisions
+Inbox/Drafts/         default AI write location; watch for refiling
+Daily/                daily notes
+Projects/             active projects
+Reference/            reference material
+People/               contacts and relationships
+Areas/                ongoing areas of responsibility
+Decisions/            decision records and ADRs
 Templates/            note templates
 SimpleBrain/raw/      machine-generated research drafts (see below)
 ```
@@ -42,7 +43,7 @@ SimpleBrain/raw/      machine-generated research drafts (see below)
 
 ## Write policy
 
-- Default write location: `00 Inbox/AI Drafts/`.
+- Default write location: `Inbox/Drafts/`.
 - Create a new draft there when the user asks for a note, summary, capture, plan, decision record, project brief, weekly review, or organization output, unless they name a different destination.
 - Do not overwrite, rename, move, delete, archive, merge, or substantially revise an existing note without explicit user approval.
 - Do not make bulk edits, mass-link notes, modify dashboards, update indexes, or reorganize folders without an explicit plan and approval.
@@ -86,7 +87,7 @@ Filename convention: `YYYY-MM-DD - Descriptive Title.md`. Starting structure: `T
 ## Weekly review
 
 - Read daily notes in the requested range and relevant active project notes.
-- Write the review as a draft in `00 Inbox/AI Drafts/`.
+- Write the review as a draft in `Inbox/Drafts/`.
 - Report completed work only where documented. Never mark tasks complete based on inference.
 
 ## Completion protocol
